@@ -1,0 +1,84 @@
+body {
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #e4f4ff;
+}
+
+.formBox {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  width: 350px;
+  margin-top: 25px;
+  border-style: solid;
+  border-color: rgb(6, 80, 155);
+  border-radius: 15px;
+  height: 320px;
+}
+
+.formHeader {
+  margin-bottom: 5px;
+  font-size: 25px;
+  color: rgb(6, 80, 155);
+  font-weight: 1000;
+}
+
+.splashForm * {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 5px;
+  width: 300px;
+}
+
+.splashForm {
+  margin: 0px;
+}
+
+.nameInput {
+  height: 30px;
+}
+
+.ageInput {
+  height: 30px;
+}
+
+.ageInput {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 8px;
+  width: 300px;
+}
+
+.splashForm label {
+  margin-bottom: 3px;
+  display: block;
+}
+
+.splashForm button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(6, 80, 155);
+  border-radius: 5px;
+  width: 308px;
+  border-style: none;
+  height: 30px;
+  color: white;
+}
+
+.splashForm button:hover {
+  background-color: #e4f4ff;
+  color: rgb(6, 80, 155);
+}
+
+.formOutput {
+  margin: 10px;
+  font-weight: bold;
+  color: rgb(6, 80, 155);
+}
